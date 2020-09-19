@@ -7,7 +7,7 @@ function randomHexColor() {
     const CHAR_BOX = NUM_AND_ALPHABET.split('').sort();
     let hexColor = '';
 
-    for(i= 0; i < 6; i++) {
+    for(var i= 0; i < 6; i++) {
         hexColor = hexColor.concat(CHAR_BOX[Math.floor(Math.random()*16)]);
     }
 
